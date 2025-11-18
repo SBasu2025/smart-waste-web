@@ -13,23 +13,23 @@ This project follows a **classic Java EE architecture** using Servlets, JSP, JDB
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack:
 
-### **Frontend**
+### **Frontend:**
 - HTML5  
 - CSS3  
 - JavaScript  
 - JSP (Java Server Pages)
 
-### **Backend**
+### **Backend:**
 - Java  
 - Servlets (`ClearRouteServlet`)  
 - JDBC (PreparedStatements, Transactions)
 
-### **Database**
+### **Database:**
 - MySQL 8.x  
 - Automated schema setup via `schema.sql`  
 
-### **Build & Deployment**
+### **Build & Deployment:**
 - Maven (WAR packaging + dependency management)  
 - Apache Tomcat 10/11 (Jakarta EE compatible)  
