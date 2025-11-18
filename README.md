@@ -1,6 +1,5 @@
 # smart-waste-web
-A fullstack webapp micro-project by Soumyadeep Basu
-The **Smart Waste Management Dashboard** is a Java-based web application that helps municipalities track garbage bin fill levels across city routes and optimize vehicle deployment for timely waste collection.  
+A fullstack webapp micro-project by me, Soumyadeep Basu.
 
 It provides:
 - A dashboard to view cities, routes, bins, and fill percentages  
