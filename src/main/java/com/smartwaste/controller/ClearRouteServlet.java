@@ -36,7 +36,7 @@ public class ClearRouteServlet extends HttpServlet {
             vehicles = 1;
         }
 
-        // vehicle_number may not be present in UI anymore; fallback to "AUTO"
+        
         String vehicleNumber = req.getParameter("vehicle_number");
         if (vehicleNumber == null || vehicleNumber.trim().isEmpty()) {
             vehicleNumber = "AUTO";
@@ -47,7 +47,6 @@ public class ClearRouteServlet extends HttpServlet {
             return;
         }
 
-        // server-side validation: ensure selected routes <= vehicles
         if (routeIds.length > vehicles) {
             resp.sendRedirect(req.getContextPath() + "/dashboard.jsp?err=" + encode("You selected more routes than vehicles (" + vehicles + ")."));
             return;
